@@ -1,4 +1,4 @@
 # Rent Car
-## Projeto exemplo de teste unitários em uma aplicação.
+## Projeto exemplo de utilização de teste unitários
 ### Junit
 ### Mockito

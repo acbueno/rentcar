@@ -3,8 +3,10 @@ package br.com.acbueno.rentcar.model;
 import java.util.Date;
 import java.util.List;
 
+import br.com.acbueno.rentcar.annotions.Generated;
 import lombok.Data;
 
+@Generated
 @Data
 public class Rent {
 

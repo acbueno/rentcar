@@ -7,6 +7,9 @@ import static java.util.Calendar.YEAR;
 import java.util.Calendar;
 import java.util.Date;
 
+import br.com.acbueno.rentcar.annotions.Generated;
+
+@Generated
 public class DataUtil {
 
 

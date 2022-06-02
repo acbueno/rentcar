@@ -22,7 +22,7 @@ import br.com.acbueno.rentcar.exceptions.RentException;
 import br.com.acbueno.rentcar.model.Car;
 import br.com.acbueno.rentcar.model.Rent;
 import br.com.acbueno.rentcar.model.User;
-import br.com.acbueno.rentcar.service.DocumentoServices;
+import br.com.acbueno.rentcar.service.DocumentServices;
 import br.com.acbueno.rentcar.service.RentService;
 
 public class RentServiceTest {
@@ -40,7 +40,7 @@ public class RentServiceTest {
   private RentDao dao;
 
   @Mock
-  private DocumentoServices documentoServices;
+  private DocumentServices documentoServices;
 
   @Before
   public void setUp() {

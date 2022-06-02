@@ -15,7 +15,7 @@ import lombok.val;
 public class RentService {
 
   private RentDao dao;
-  private DocumentoServices documentoServices;
+  private DocumentServices documentoServices;
 
   public Rent rentCar(User user, List<Car> cars, int days, Double bonusPercent) throws RentException, CarNotFoundException {
 
